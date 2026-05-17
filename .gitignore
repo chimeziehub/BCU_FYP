@@ -1,0 +1,17 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pkl
+*.h5
+*.keras
+*.zip
+*.log
+.DS_Store
+
+# Credentials and private files
+*.json
+*.key
+.env
+
+# Large raw data folders
+data/raw/
