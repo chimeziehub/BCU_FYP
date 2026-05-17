@@ -70,6 +70,8 @@ The one-step-ahead models and GBM path-based models were evaluated separately be
 
 The project shows that more complex models and sentiment features do not automatically improve short-term stock forecasting. The main contribution is a controlled comparison framework rather than a claim that stock prices can be reliably predicted.
 
+PNG result figures               MAE, RMSE, GBM path error and pipeline visuals
+
 ## Repository Contents
 
 ```text
