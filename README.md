@@ -75,25 +75,62 @@ PNG result figures               MAE, RMSE, GBM path error and pipeline visuals
 ## Repository Contents
 
 ```text
-StockMarketPrediction_FYP.ipynb   Main Google Colab notebook
-README.md                        Project overview and documentation
-requirements.txt                 Python libraries required to run the project
-.gitignore                       Files excluded from the repository
+## Repository Contents
 
-How to Run
-Open StockMarketPrediction_FYP.ipynb.
-Run the notebook in Google Colab.
-Install the required packages listed in requirements.txt.
-Run the cells in order.
-Review the generated model results, charts and exported outputs.
-Reproducibility Notes
+This repository contains the main implementation notebook, project poster, result figures and exported model output files.
 
-The project uses chronological train-validation-test splitting to reduce data leakage. This ensures that models are trained on past data and tested on future data.
+| File | Description |
+|---|---|
+| `StockMarketPrediction_FYP.ipynb` | Main Google Colab notebook containing the full forecasting pipeline, feature engineering, model implementation and evaluation. |
+| `FYP_Poster.pptx` | Editable PowerPoint version of the final project poster. |
+| `requirements.txt` | List of Python libraries required to run the notebook. |
+| `.gitignore` | Excludes unnecessary or private files from the repository. |
 
-Some GDELT/BigQuery cells may require Google Cloud authentication. Private credentials are not included in this repository.
+## Key Result Figures
 
-Disclaimer
+| File | Description |
+|---|---|
+| `one_step_mae_comparison.png` | Compares one-step-ahead models using MAE across the selected stocks. |
+| `one_step_rmse_comparison.png` | Compares one-step-ahead models using RMSE across the selected stocks. |
+| `gbm_path_mae_comparison.png` | Compares GBM path-based models using MAE. |
+| `gbm_path_rmse_comparison.png` | Compares GBM path-based models using RMSE. |
+| `gbm_sentiment_uncertainty_band.png` | Shows GBM + Sentiment forecast paths, actual prices and uncertainty bands. |
+| `model_pipeline.png` | Shows the overall workflow from data collection to feature engineering, modelling and evaluation. |
 
-This project is for academic research only. It is not financial advice and should not be used as a trading system.
+## Exported Result Files
+
+The repository includes CSV output files generated from the notebook. These files provide the numerical results behind the evaluation charts.
+
+| File | Description |
+|---|---|
+| `final_grouped_model_comparison.csv` | Overall grouped model comparison results. |
+| `final_grouped_average_comparison.csv` | Average comparison of model performance. |
+| `one_step_model_comparison.csv` | One-step-ahead model comparison results. |
+| `one_step_average_comparison.csv` | Average one-step-ahead model performance summary. |
+| `directional_accuracy_significance_results.csv` | Directional accuracy and statistical significance results. |
+| `best_model_by_ticker_and_type.csv` | Best-performing model by ticker and model category. |
+| `gbm_sentiment_monthly_results.csv` | Monthly GBM + Sentiment results. |
+| `gbm_sentiment_yearly_results.csv` | Yearly GBM + Sentiment results. |
+| `gbm_periodic_sentiment_results.csv` | Periodic GBM + Sentiment result outputs. |
+| `lstm_sentiment_results.csv` | LSTM + Sentiment model result outputs. |
+| `lstm_results_no_sentiment.csv` | LSTM model results without sentiment features. |
+
+## How to Run the Project
+
+1. Open `StockMarketPrediction_FYP.ipynb`.
+2. Run the notebook in Google Colab.
+3. Install the required libraries using `requirements.txt`.
+4. Run the notebook cells in order.
+5. Review the exported CSV result files and PNG figures.
+
+## Reproducibility Notes
+
+The project uses chronological train, validation and test splitting instead of random splitting. This helps reduce data leakage by ensuring that models are trained on past data and evaluated on future unseen data.
+
+Some GDELT and BigQuery cells may require Google Cloud authentication. Private credentials are not included in this repository.
+
+## Academic Disclaimer
+
+This project is for academic research only. It is not financial advice and should not be used as a live trading system..
 
 ```text
