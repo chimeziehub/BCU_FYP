@@ -1,0 +1,28 @@
+ticker,model_vs_random_walk,dm_stat_squared_loss,p_value_squared_loss,significant_squared_5pct,dm_stat_absolute_loss,p_value_absolute_loss,significant_absolute_5pct,squared_loss_interpretation,absolute_loss_interpretation
+WMT,Linear Regression,3.231372910416136,0.001274784654641259,True,3.028121228659639,0.0025279749644717686,True,Significantly worse than Random Walk,Significantly worse than Random Walk
+WMT,LSTM,-0.5196697000721583,0.6034161544066574,False,-1.0325355493650996,0.30208687965444914,False,No significant difference vs Random Walk,No significant difference vs Random Walk
+WMT,LSTM + Sentiment,2.2250346823301967,0.026315581330379256,True,3.005622887247009,0.0027207687936907643,True,Significantly worse than Random Walk,Significantly worse than Random Walk
+NVDA,Linear Regression,11.564052547698068,0.0,True,16.260373655568493,0.0,True,Significantly worse than Random Walk,Significantly worse than Random Walk
+NVDA,LSTM,6.99896310106407,4.922950935792869e-12,True,7.86180976192535,1.0436096431476471e-14,True,Significantly worse than Random Walk,Significantly worse than Random Walk
+NVDA,LSTM + Sentiment,5.894001694867553,5.262324798138707e-09,True,7.580486323035915,8.304468224196171e-14,True,Significantly worse than Random Walk,Significantly worse than Random Walk
+AMD,Linear Regression,5.282090510658535,1.5838384648247938e-07,True,7.562879107606523,9.281464485866309e-14,True,Significantly worse than Random Walk,Significantly worse than Random Walk
+AMD,LSTM,1.7192401401310444,0.08589639949828443,False,2.189743970298735,0.028785389170144615,True,No significant difference vs Random Walk,Significantly worse than Random Walk
+AMD,LSTM + Sentiment,16.244866041728258,0.0,True,24.87642888628606,0.0,True,Significantly worse than Random Walk,Significantly worse than Random Walk
+KO,Linear Regression,3.4657134331755226,0.0005535182626348334,True,4.557017433319697,5.8949430057353425e-06,True,Significantly worse than Random Walk,Significantly worse than Random Walk
+KO,LSTM,1.8710550518383922,0.0616578132874146,False,1.3092113280832325,0.19079289029918822,False,No significant difference vs Random Walk,No significant difference vs Random Walk
+KO,LSTM + Sentiment,2.723620135898171,0.006580604867358897,True,2.9404358518919476,0.0033603879649488633,True,Significantly worse than Random Walk,Significantly worse than Random Walk
+JNJ,Linear Regression,1.1700630885943444,0.24229381110407822,False,2.2102455594803154,0.027345943700385344,True,No significant difference vs Random Walk,Significantly worse than Random Walk
+JNJ,LSTM,0.3779370524878988,0.7055689137650483,False,-0.858035992767488,0.3911072862500269,False,No significant difference vs Random Walk,No significant difference vs Random Walk
+JNJ,LSTM + Sentiment,2.389236899643291,0.0170940795394805,True,3.19190298585591,0.0014637653924698402,True,Significantly worse than Random Walk,Significantly worse than Random Walk
+MSFT,Linear Regression,10.766455267293285,0.0,True,13.32699380312214,0.0,True,Significantly worse than Random Walk,Significantly worse than Random Walk
+MSFT,LSTM,5.27523984401874,1.6449728157397203e-07,True,6.856069074541484,1.2782885860929127e-11,True,Significantly worse than Random Walk,Significantly worse than Random Walk
+MSFT,LSTM + Sentiment,4.001572163658855,6.785488077154511e-05,True,4.55538788957964,5.914522514860465e-06,True,Significantly worse than Random Walk,Significantly worse than Random Walk
+AAPL,Linear Regression,11.033352264406995,0.0,True,15.312990820335875,0.0,True,Significantly worse than Random Walk,Significantly worse than Random Walk
+AAPL,LSTM,9.06664417692564,0.0,True,11.781209762378861,0.0,True,Significantly worse than Random Walk,Significantly worse than Random Walk
+AAPL,LSTM + Sentiment,21.714241912261162,0.0,True,32.02787184109341,0.0,True,Significantly worse than Random Walk,Significantly worse than Random Walk
+AMZN,Linear Regression,1.7104664290041358,0.08750717973704969,False,0.6827810964105908,0.49491216416435524,False,No significant difference vs Random Walk,No significant difference vs Random Walk
+AMZN,LSTM,3.3549994443588957,0.0008251675373398548,True,3.8289820925675775,0.00013713468137677154,True,Significantly worse than Random Walk,Significantly worse than Random Walk
+AMZN,LSTM + Sentiment,10.656111433738822,0.0,True,13.463261637656448,0.0,True,Significantly worse than Random Walk,Significantly worse than Random Walk
+NFLX,Linear Regression,4.089445725123637,4.691858748384625e-05,True,4.66625598111094,3.5092766728084257e-06,True,Significantly worse than Random Walk,Significantly worse than Random Walk
+NFLX,LSTM,3.124030028898677,0.0018382353340067326,True,3.5705121212590734,0.000374215075476636,True,Significantly worse than Random Walk,Significantly worse than Random Walk
+NFLX,LSTM + Sentiment,0.9824569033440056,0.3261259963418499,False,0.7387575858649748,0.460237456061543,False,No significant difference vs Random Walk,No significant difference vs Random Walk
