@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+tensorflow
+scipy
+yfinance
+google-cloud-bigquery
+tqdm
+vaderSentiment
+plotly
